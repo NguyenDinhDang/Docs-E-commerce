@@ -11,6 +11,7 @@ Bộ tài liệu này được viết để bàn giao kỹ thuật và báo cáo
 5. [Huong dan van hanh](./05-huong-dan-van-hanh.md)
 6. [Bao cao ky thuat](./06-bao-cao-ky-thuat.md)
 7. [So do Mermaid](./07-so-do-mermaid.md)
+8. [Cong nghe can hoc de thuyet trinh](./08-cong-nghe-can-hoc-de-thuyet-trinh.md)
 
 ## Ghi chu
 
