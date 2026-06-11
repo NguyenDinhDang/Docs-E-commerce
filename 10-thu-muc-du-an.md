@@ -8,27 +8,27 @@ Tài liệu này cung cấp sơ đồ toàn diện của thư mục `src` giúp 
 
 ```mermaid
 graph TD
-    src[src/] --> app[app/ - Quản lý Tuyến đường & Giao diện chính]
-    src --> components[components/ - Các khối UI độc lập]
-    src --> store[store/ - Quản lý Trạng thái Zustand]
-    src --> utils[utils/ - Các hàm bổ trợ]
-    src --> types[types/ - Định nghĩa kiểu dữ liệu TypeScript]
+    src["src/"] --> app["app/ - Quản lý Tuyến đường & Giao diện chính"]
+    src --> components["components/ - Các khối UI độc lập"]
+    src --> store["store/ - Quản lý Trạng thái Zustand"]
+    src --> utils["utils/ - Các hàm bổ trợ"]
+    src --> types["types/ - Định nghĩa kiểu dữ liệu TypeScript"]
 
-    app --> site[(site)/ - Chứa các trang chính]
-    app --> css[css/ - Chứa CSS Style của dự án]
+    app --> site["(site)/ - Chứa các trang"]
+    app --> css["css/ - Chứa CSS Style của dự án"]
     
-    site --> pages[(pages)/ - Các trang chức năng]
-    site --> layout_site[layout.tsx - Layout chung chứa Header & Footer]
-    site --> page_home[page.tsx - Trang chủ]
+    site --> pages["(pages)/ - Các trang chức năng"]
+    site --> layout_site["layout.tsx - Layout chung chứa Header & Footer"]
+    site --> page_home["page.tsx - Trang chủ"]
 
-    pages --> cart[cart/page.tsx - Giỏ hàng]
-    pages --> checkout[checkout/page.tsx - Thanh toán]
-    pages --> contact[contact/page.tsx - Liên hệ]
-    pages --> my_account[my-account/page.tsx - Quản lý tài khoản]
-    pages --> shop_details[shop-details/page.tsx - Chi tiết sản phẩm]
-    pages --> shop_sidebar[shop-with-sidebar/page.tsx - Cửa hàng]
-    pages --> auth[signin & signup/ - Đăng nhập & Đăng ký]
-    pages --> wishlist[wishlist/page.tsx - Yêu thích]
+    pages --> cart["cart/page.tsx - Giỏ hàng"]
+    pages --> checkout["checkout/page.tsx - Thanh toán"]
+    pages --> contact["contact/page.tsx - Liên hệ"]
+    pages --> my_account["my-account/page.tsx - Quản lý tài khoản"]
+    pages --> shop_details["shop-details/page.tsx - Chi tiết sản phẩm"]
+    pages --> shop_sidebar["shop-with-sidebar/page.tsx - Cửa hàng"]
+    pages --> auth["signin & signup/ - Đăng nhập & Đăng ký"]
+    pages --> wishlist["wishlist/page.tsx - Yêu thích"]
 ```
 
 ---
